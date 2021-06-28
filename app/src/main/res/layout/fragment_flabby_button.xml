@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Flabby_button">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/but_histore"
+        android:layout_weight="1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/but_picture_control"
+        android:text="@string/buttom_histore"
+        app:layout_constraintBottom_toBottomOf="@+id/but_auto_connect"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/but_auto_connect"
+        tools:textSize="24sp" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/but_acupoint_position"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/but_picture_control"
+        android:text="@string/buttom_acupoint_position"
+        tools:textSize="24sp" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/bth_person_data"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/but_picture_control"
+        android:text="個資"
+        tools:textSize="24sp" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/but_auto_connect"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/but_picture_control"
+        android:text="@string/buttom_auto"
+        tools:textSize="24sp" />
+</LinearLayout>

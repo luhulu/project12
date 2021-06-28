@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LLbackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Facupuncturepoint_choose">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@color/nocolor"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/LLpicutre"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/handyin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3">
+        <Button
+            android:id="@+id/btnhandyin01"
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.1"
+            android:background="@drawable/acupuncturepoint_button_picture" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:text="雲門"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33">
+        <Button
+            android:id="@+id/btnhandyin02"
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.1"
+            android:background="@drawable/acupuncturepoint_button_picture" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:text="中府"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457">
+        <Button
+            android:id="@+id/btnhandyin03"
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.1"
+            android:background="@drawable/acupuncturepoint_button_picture" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:text="天府"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

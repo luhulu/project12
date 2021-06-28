@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">12經絡穴位筆</string>
+    <string name="buttom_histore">紀錄</string>
+    <string name="buttom_auto">wifi連接</string>
+    <string name="buttom_acupoint_position">穴位</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="battery_power">錯誤</string>
+</resources>
